@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head><link rel="stylesheet" href="new.css">
+    </head>
+    <title>LGM task2 </title>
+    <body>
+     <div class="container">
+         <div class="heder">
+             <div align="center">CANVAS </div>
+             <div align="right" class="btn"><button id="getdata" align ="center" onclick="getData()">GET USER</button></div>
+            </div>
+            <div id="data">
+                <div class="table">
+                <table width="100%"height="490px">
+                    <tr align="center" >
+                        <td><img src=""  id="p1img"></td>
+                        <td><img src=""  id="p2img"></td>
+                        <td><img src=""  id="p3img"></td>
+                    </tr>
+                    <tr>
+                        
+                        <td  align="center" id="name1"></td>
+                        <td  align="center" id="name2"></td>
+                        <td  align="center" id="name3"></td>
+                    </tr>
+                    <tr>
+                        
+                        <td  align="center" id="mail1"></td>
+                        <td  align="center" id="mail2"></td>
+                        <td  align="center" id="mail3"></td>
+                    </tr>
+                    <tr align="center">
+                        <td><img src=""  id="p4img"></td>
+                        <td><img src=""  id="p5img"></td>
+                        <td><img src=""  id="p6img"></td>
+                    </tr>
+                    <tr>
+                        
+                        <td  align="center" id="name4"></td>
+                        <td  align="center" id="name5"></td>
+                        <td  align="center" id="name6"></td>
+                    </tr>
+                    <tr>
+                        
+                        <td  align="center" id="mail4"></td>
+                        <td  align="center" id="mail5"></td>
+                        <td  align="center" id="mail6"></td>
+                    </tr>
+                </table>
+            </div>
+            </div>
+    </div>
+        <div style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-style: italic;" class="welcome"><marquee width="100%" direction="right" height="100px">
+            ......WELCOME TO THE MUSIC WORLD...</marquee></div>
+    <script src="Api.js">
+    </script>
+    </body>
+</html>
